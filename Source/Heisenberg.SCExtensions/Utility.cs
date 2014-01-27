@@ -15,7 +15,7 @@ using Sitecore.Workflows;
 namespace Heisenberg.SCExtensions
 {
     /// <summary>
-    /// Utility calss for helper functions
+    /// Utility calss for helper functions - Modified from VS
     /// </summary>
     public class Utility
     {
