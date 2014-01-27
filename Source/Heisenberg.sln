@@ -1,0 +1,38 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Heisenberg.Website", "Website\Heisenberg.Website.csproj", "{6848B3ED-B159-4CD5-913F-5F8B213F5F48}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Heisenberg.SCExtensions", "Heisenberg.SCExtensions\Heisenberg.SCExtensions.csproj", "{833BA9E1-A24A-47CF-A6C7-92D8F26AE9B3}"
+EndProject
+Global
+	GlobalSection(TeamFoundationVersionControl) = preSolution
+		SccNumberOfProjects = 3
+		SccEnterpriseProvider = {4CA58AB2-18FA-4F8D-95D4-32DDF27D184C}
+		SccTeamFoundationServer = http://tfswest.reveregroup.com:8080/tfs/defaultcollection
+		SccLocalPath0 = .
+		SccProjectUniqueName1 = Website\\Heisenberg.Website.csproj
+		SccProjectName1 = Website
+		SccLocalPath1 = Website
+		SccProjectUniqueName2 = Heisenberg.SCExtensions\\Heisenberg.SCExtensions.csproj
+		SccProjectName2 = Heisenberg.SCExtensions
+		SccLocalPath2 = Heisenberg.SCExtensions
+	EndGlobalSection
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{6848B3ED-B159-4CD5-913F-5F8B213F5F48}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6848B3ED-B159-4CD5-913F-5F8B213F5F48}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6848B3ED-B159-4CD5-913F-5F8B213F5F48}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6848B3ED-B159-4CD5-913F-5F8B213F5F48}.Release|Any CPU.Build.0 = Release|Any CPU
+		{833BA9E1-A24A-47CF-A6C7-92D8F26AE9B3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{833BA9E1-A24A-47CF-A6C7-92D8F26AE9B3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{833BA9E1-A24A-47CF-A6C7-92D8F26AE9B3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{833BA9E1-A24A-47CF-A6C7-92D8F26AE9B3}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

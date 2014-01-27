@@ -1,0 +1,19 @@
+﻿@using Sitecore.Mvc
+@using Sitecore.Mvc.Presentation
+@using Sitecore.Web.UI.Controls.Common.UserControls
+@model RenderingModel
+@{
+  var rendering = Html.Sitecore().Controls().GetUserControl(Model.Rendering);
+  rendering.Class = "sc-UserWorkflowInteraction";
+  rendering.Requires.Script("client", "UserWorkflowInteraction.js");
+
+    rendering.GetString("items", "items");
+
+  var htmlAttributes = rendering.HtmlAttributes;
+}      
+<link href="/Scripts/jqPlot/jquery.jqplot.min.css" rel="stylesheet" />
+<script src="/Scripts/jqPlot/jquery.min.js"></script>
+<script src="/Scripts/jqPlot/jquery.jqplot.min.js"></script>
+<div @htmlAttributes>
+    <div id="doughnutGraph" style="width:500px; height:500px;"></div>
+</div>

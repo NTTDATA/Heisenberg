@@ -1,0 +1,17 @@
+﻿@using Sitecore.Mvc
+@using Sitecore.Mvc.Presentation
+@using Sitecore.Web.UI.Controls.Common.UserControls
+@model RenderingModel
+@{
+  var rendering = Html.Sitecore().Controls().GetUserControl(Model.Rendering);
+  rendering.Class = "sc-WorkflowDatasource";
+  rendering.Requires.Script("client", "WorkflowDatasource.js");
+
+    rendering.GetString("BeginDate", "BeginDate");
+    rendering.GetString("EndDate", "EndDate");
+    
+  
+  var htmlAttributes = rendering.HtmlAttributes;
+}      
+<div @htmlAttributes>
+</div>
