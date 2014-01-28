@@ -1,4 +1,4 @@
-# Sitecore Referenception Module
+# Heisenberg Workflow Enhancements
 
 This package includes several enhancements to the workflow tools within the Sitecore back-end, many of which leverage improvements introduced in Sitecore 7.1.  Each module is its own enhancement which can be enabled/disabled independently of the other modules.
 
