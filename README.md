@@ -15,7 +15,8 @@ This module has two below components.
 ![](doc/Datasource_workflow_val_2.png)
 
 ##2. User Workflow Performance Graph
-SPEAK application that gives a doughnut graph of users interactions with workflow within a date range for single items. This application does not show the user making the same change to a single item in that range to avoid large amounts of data made between back and forths.
+SPEAK application that gives a doughnut graph of users interactions with workflow within a date range for single items. 
+This application does not show the user making the same change to a single item in that range to avoid large amounts of data made between back and forths.
 This application is accessible through the *Reporting Tools* on the right side of the *Start Navigation*.
 
 ![](doc/performance_graph.png)
