@@ -1,0 +1,116 @@
+<project>
+  <Metadata>
+    <metadata>
+      <PackageName>Heisenberg</PackageName>
+      <Author>Keith Ball, Tauqir Malik, and Valerie Concepcion (NTT DATA)</Author>
+      <Version>1.0</Version>
+      <Revision />
+      <License />
+      <Comment />
+      <Attributes />
+      <Readme>Install the Sitecore package</Readme>
+      <Publisher />
+      <PostStep />
+      <PackageID />
+    </metadata>
+  </Metadata>
+  <SaveProject>True</SaveProject>
+  <Sources>
+    <xitems>
+      <Entries>
+        <x-item>/core/sitecore/client/Your Apps/UserWorkflowInteraction/{EFC1B7AE-9747-45A8-92AC-AB9A5B036A46}/invariant/0</x-item>
+        <x-item>/core/sitecore/client/Your Apps/UserWorkflowInteraction/PageSettings/{70EAA5B6-3B04-40A0-B721-0372B3BC9586}/invariant/0</x-item>
+        <x-item>/core/sitecore/client/Your Apps/UserWorkflowInteraction/PageSettings/UserWorkflowInteraction/{67714D0F-7626-406A-99BA-30162AF7A3BF}/invariant/0</x-item>
+        <x-item>/core/sitecore/client/Your Apps/UserWorkflowInteraction/PageSettings/UserWorkflowInteraction/UserWorkflowInteraction Parameters/__Standard Values/{3687D5D3-5D71-4829-808E-3D5660B978E3}/invariant/0</x-item>
+        <x-item>/core/sitecore/client/Your Apps/UserWorkflowInteraction/PageSettings/UserWorkflowInteraction/UserWorkflowInteraction Parameters/{15BBF30B-58C6-4824-90C0-49075DB8F3EB}/invariant/0</x-item>
+        <x-item>/core/sitecore/client/Your Apps/UserWorkflowInteraction/PageSettings/UserWorkflowInteraction/UserWorkflowInteraction Parameters/Data/{22B703A4-DEDB-48E1-9E4C-7C6A0C402353}/invariant/0</x-item>
+        <x-item>/core/sitecore/client/Your Apps/UserWorkflowInteraction/PageSettings/UserWorkflowInteraction/UserWorkflowInteraction Parameters/Data/items/{3886966D-5F0A-42F3-AE84-AE28CCD8F600}/invariant/0</x-item>
+        <x-item>/core/sitecore/client/Your Apps/UserWorkflowInteraction/PageSettings/WorkflowDatasource/{2C3524FB-3E54-4767-824B-ECEB0BD14A87}/invariant/0</x-item>
+        <x-item>/core/sitecore/client/Your Apps/UserWorkflowInteraction/PageSettings/WorkflowDatasource/WorkflowDatasource Parameters/__Standard Values/{CF8DA575-821B-4670-9B94-BB8A2FA9FF2E}/invariant/0</x-item>
+        <x-item>/core/sitecore/client/Your Apps/UserWorkflowInteraction/PageSettings/WorkflowDatasource/WorkflowDatasource Parameters/{0339F33A-5AB7-46E8-83CB-8D25E5DCD185}/invariant/0</x-item>
+        <x-item>/core/sitecore/client/Your Apps/UserWorkflowInteraction/PageSettings/WorkflowDatasource/WorkflowDatasource Parameters/Data/{77776E56-A4C9-4B37-B0C8-3A064E6DF9A3}/invariant/0</x-item>
+        <x-item>/core/sitecore/client/Your Apps/UserWorkflowInteraction/PageSettings/WorkflowDatasource/WorkflowDatasource Parameters/Data/BeginDate/{CDB1ECC7-3F00-4C8F-8DC0-E9746855C892}/invariant/0</x-item>
+        <x-item>/core/sitecore/client/Your Apps/UserWorkflowInteraction/PageSettings/WorkflowDatasource/WorkflowDatasource Parameters/Data/EndDate/{C62E2CD0-0C38-4D5E-8524-1393F7C39E1F}/invariant/0</x-item>
+        <x-item>/core/sitecore/client/Your Apps/UserWorkflowInteraction/PageSettings/WorkflowDatasource/WorkflowDatasource Parameters/Data/errorText/{9924208A-3EC2-41C5-803D-9B0F1AA2D233}/invariant/0</x-item>
+        <x-item>/core/sitecore/client/Your Apps/UserWorkflowInteraction/PageSettings/WorkflowDatasource/WorkflowDatasource Parameters/Data/Output/{D641B2FB-7FE8-41C5-8ED3-5F80AEA98006}/invariant/0</x-item>
+        <x-item>/core/sitecore/content/Documents and settings/All users/Start menu/Right/Reporting Tools/User Workflow Performance/{526E5F4F-DEC9-480C-9838-BCD13976A64C}/invariant/0</x-item>
+      </Entries>
+      <SkipVersions>False</SkipVersions>
+      <Converter>
+        <ItemToEntryConverter>
+          <Transforms />
+        </ItemToEntryConverter>
+      </Converter>
+      <Include />
+      <Exclude />
+      <Name>SPEAK App</Name>
+    </xitems>
+    <xitems>
+      <Entries>
+        <x-item>/master/sitecore/system/Settings/Buckets/Facets/Workflow State/{C9466DC2-FFE7-4B63-A9C9-AE8130484D10}/invariant/0</x-item>
+        <x-item>/master/sitecore/system/Settings/Buckets/Views/Workflow View/{40B6AD69-B1AB-4F76-8958-87A145261455}/invariant/0</x-item>
+        <x-item>/master/sitecore/system/Settings/Validation Rules/Item Rules/Item/Data Source Workflow/{9FC42E5A-1A68-40C3-B6F5-43B0A5380739}/invariant/0</x-item>
+      </Entries>
+      <SkipVersions>False</SkipVersions>
+      <Converter>
+        <ItemToEntryConverter>
+          <Transforms />
+        </ItemToEntryConverter>
+      </Converter>
+      <Include />
+      <Exclude />
+      <Name>System</Name>
+    </xitems>
+    <xfiles>
+      <Entries>
+        <x-item>/App_Config/Include/Heisenberg.config</x-item>
+        <x-item>/bin/Heisenberg.SCExtensions.dll</x-item>
+        <x-item>/bin/Heisenberg.Website.dll</x-item>
+        <x-item>/Scripts/heisenberg.js</x-item>
+        <x-item>/sitecore/shell/Applications/Buckets/images/heisenberg.png</x-item>
+        <x-item>/sitecore/shell/Applications/Buckets/images/heisenberg_selected.png</x-item>
+        <x-item>/sitecore/shell/client/YourApps/UserWorkflowInteraction/UserWorkflowInteraction.cshtml</x-item>
+        <x-item>/sitecore/shell/client/YourApps/UserWorkflowInteraction/UserWorkflowInteraction.js</x-item>
+        <x-item>/sitecore/shell/client/YourApps/UserWorkflowInteraction/UserWorkflowInteraction.test.js</x-item>
+        <x-item>/sitecore/shell/client/YourApps/UserWorkflowInteraction/UserWorkflowInteractionCode.js</x-item>
+        <x-item>/sitecore/shell/client/YourApps/WorkflowDataSource/WorkflowDatasource.cs</x-item>
+        <x-item>/sitecore/shell/client/YourApps/WorkflowDataSource/WorkflowDatasource.cshtml</x-item>
+        <x-item>/sitecore/shell/client/YourApps/WorkflowDataSource/WorkflowDatasource.js</x-item>
+        <x-item>/sitecore/shell/client/YourApps/WorkflowDataSource/WorkflowDatasource.test.js</x-item>
+        <x-item>/Scripts/jqPlot/</x-item>
+        <x-item>/Scripts/jqPlot/jquery.jqplot.min.css</x-item>
+        <x-item>/Scripts/jqPlot/jquery.jqplot.min.js</x-item>
+        <x-item>/Scripts/jqPlot/jquery.min.js</x-item>
+        <x-item>/Scripts/jqPlot/plugins/</x-item>
+        <x-item>/Scripts/jqPlot/plugins/jqplot.donutRenderer.min.js</x-item>
+        <x-item>/Scripts/jqPlot/plugins/jqplot.pieRenderer.min.js</x-item>
+      </Entries>
+      <Converter>
+        <FileToEntryConverter>
+          <Root>/</Root>
+          <Transforms>
+            <InstallerConfigurationTransform>
+              <Options>
+                <BehaviourOptions>
+                  <ItemMode>Undefined</ItemMode>
+                  <ItemMergeMode>Undefined</ItemMergeMode>
+                </BehaviourOptions>
+              </Options>
+            </InstallerConfigurationTransform>
+          </Transforms>
+        </FileToEntryConverter>
+      </Converter>
+      <Include />
+      <Exclude />
+      <Name>Files</Name>
+    </xfiles>
+  </Sources>
+  <Converter>
+    <TrivialConverter>
+      <Transforms />
+    </TrivialConverter>
+  </Converter>
+  <Include />
+  <Exclude />
+  <Name />
+</project>
