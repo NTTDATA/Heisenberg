@@ -1,0 +1,49 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="ItemBucketsSearchResult.master.cs" Inherits="Sitecore.Buckets.Client.sitecore_modules.Shell.Sitecore.Buckets.ItemBucketsSearchResult" %>
+
+<%@ Import Namespace="Sitecore" %>
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <title>Welcome to Sitecore</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <meta name="CODE_LANGUAGE" content="C#" />
+    <meta name="vs_defaultClientScript" content="JavaScript" />
+    <meta name="vs_targetSchema" content="http://schemas.microsoft.com/intellisense/ie5" />
+    <link href="./Styles/jquery-ui.css" media="all" rel="stylesheet" type="text/css" />
+    <link href="./Styles/ItemBucket.css" rel="stylesheet" type="text/css" />
+    <link href="./Styles/SiteNew.css" rel="stylesheet" type="text/css" />
+    <link href="./Styles/ListNew.css" rel="stylesheet" type="text/css" />
+    <link href="./Styles/core.css" rel="stylesheet" type="text/css" />
+    <!-- Custom stylesheets -->
+    <link href="./Styles/custom.css" rel="stylesheet" type="text/css" />
+    
+    <asp:PlaceHolder ID="dynamicHeadPlaceholder" runat="server"></asp:PlaceHolder>     
+
+    <script src="./Scripts/jquery.min.js" type="text/javascript"></script>
+    <script src="./Scripts/jquery-migrate-1.2.1.js" type="text/javascript"></script>
+    <script src="./Scripts/jquery.min.noconflict.js" type="text/javascript"></script>
+    <script src="/sitecore/shell/controls/lib/prototype/prototype.js" type="text/javascript"></script>
+
+    <script src="/sitecore/shell/controls/Browser.js" type="text/javascript"></script>
+    <script src="/sitecore/shell/controls/Sitecore.js" type="text/javascript"></script>
+    <script src="./Scripts/jquery-ui.min.js" type="text/javascript"></script>
+    <script src="./Scripts/jquery-ui-culture.js" type="text/javascript"></script>
+    <script src="./Scripts/date.js" type="text/javascript"></script>
+    <script src="./Scripts/ItemBucket.utils.js" type="text/javascript"></script>
+    <script src="./Scripts/ItemBucket.autoSuggest.js" type="text/javascript"></script>
+    <script src="./Scripts/ItemBucket.js" type="text/javascript"></script>
+
+    <script type="text/javascript">
+      scForm.registerKey("13", "", "");
+    </script>
+
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+</head>
+<body>
+    <form id="Form1" class="mainForm" method="post" runat="server">
+        <asp:ContentPlaceHolder ID="body" runat="server">
+        </asp:ContentPlaceHolder>
+    </form>
+</body>
+</html>

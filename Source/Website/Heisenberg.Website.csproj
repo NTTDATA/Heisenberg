@@ -77,7 +77,6 @@
     <Content Include="App_Config\Include\Heisenberg.config">
       <SubType>Designer</SubType>
     </Content>
-    <Content Include="Scripts\heisenberg.js" />
     <Content Include="Scripts\jqPlot\jquery.jqplot.min.css" />
     <Content Include="Scripts\jqPlot\jquery.jqplot.min.js" />
     <Content Include="Scripts\jqPlot\jquery.min.js" />
@@ -85,6 +84,7 @@
     <Content Include="Scripts\jqPlot\plugins\jqplot.pieRenderer.min.js" />
     <Content Include="sitecore\shell\Applications\Buckets\images\heisenberg.png" />
     <Content Include="sitecore\shell\Applications\Buckets\images\heisenberg_selected.png" />
+    <Content Include="sitecore\shell\Applications\Buckets\Styles\custom.css" />
     <Content Include="sitecore\shell\client\YourApps\UserWorkflowInteraction\UserWorkflowInteraction.js" />
     <Content Include="sitecore\shell\client\YourApps\UserWorkflowInteraction\UserWorkflowInteraction.test.js" />
     <Content Include="sitecore\shell\client\YourApps\UserWorkflowInteraction\UserWorkflowInteractionCode.js" />
@@ -106,6 +106,9 @@
       <Project>{833ba9e1-a24a-47cf-a6c7-92d8f26ae9b3}</Project>
       <Name>Heisenberg.SCExtensions</Name>
     </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="sitecore\shell\Applications\Buckets\ItemBucketsSearchResult.Master" />
   </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>

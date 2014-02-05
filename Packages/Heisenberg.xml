@@ -2,14 +2,25 @@
   <Metadata>
     <metadata>
       <PackageName>Heisenberg</PackageName>
-      <Author>Keith Ball, Tauqir Malik, and Valerie Concepcion (NTT DATA)</Author>
-      <Version>1.0</Version>
+      <Author>Keith Ball, Tauqir Malik, and Valerie Concepcion</Author>
+      <Version>1.1</Version>
       <Revision />
       <License />
       <Comment />
       <Attributes />
-      <Readme>Install the Sitecore package</Readme>
-      <Publisher />
+      <Readme>Install the Sitecore package.
+
+Note: The following core file has been modified to include
+a custom stylesheet reference -
+/sitecore/shell/Applications/Buckets/
+ItemBucketsSearchResult.Master.
+If you have customized this file, you may "Skip" it during
+installation and merge the change manually. Otherwise,
+select "Yes" when prompted to overwrite.
+
+Source code:
+https://github.com/NTTDATA/Heisenberg</Readme>
+      <Publisher>NTT DATA</Publisher>
       <PostStep />
       <PackageID />
     </metadata>
@@ -66,14 +77,12 @@
         <x-item>/App_Config/Include/Heisenberg.config</x-item>
         <x-item>/bin/Heisenberg.SCExtensions.dll</x-item>
         <x-item>/bin/Heisenberg.Website.dll</x-item>
-        <x-item>/Scripts/heisenberg.js</x-item>
         <x-item>/sitecore/shell/Applications/Buckets/images/heisenberg.png</x-item>
         <x-item>/sitecore/shell/Applications/Buckets/images/heisenberg_selected.png</x-item>
         <x-item>/sitecore/shell/client/YourApps/UserWorkflowInteraction/UserWorkflowInteraction.cshtml</x-item>
         <x-item>/sitecore/shell/client/YourApps/UserWorkflowInteraction/UserWorkflowInteraction.js</x-item>
         <x-item>/sitecore/shell/client/YourApps/UserWorkflowInteraction/UserWorkflowInteraction.test.js</x-item>
         <x-item>/sitecore/shell/client/YourApps/UserWorkflowInteraction/UserWorkflowInteractionCode.js</x-item>
-        <x-item>/sitecore/shell/client/YourApps/WorkflowDataSource/WorkflowDatasource.cs</x-item>
         <x-item>/sitecore/shell/client/YourApps/WorkflowDataSource/WorkflowDatasource.cshtml</x-item>
         <x-item>/sitecore/shell/client/YourApps/WorkflowDataSource/WorkflowDatasource.js</x-item>
         <x-item>/sitecore/shell/client/YourApps/WorkflowDataSource/WorkflowDatasource.test.js</x-item>
@@ -84,6 +93,8 @@
         <x-item>/Scripts/jqPlot/plugins/</x-item>
         <x-item>/Scripts/jqPlot/plugins/jqplot.donutRenderer.min.js</x-item>
         <x-item>/Scripts/jqPlot/plugins/jqplot.pieRenderer.min.js</x-item>
+        <x-item>/sitecore/shell/Applications/Buckets/ItemBucketsSearchResult.Master</x-item>
+        <x-item>/sitecore/shell/Applications/Buckets/Styles/custom.css</x-item>
       </Entries>
       <Converter>
         <FileToEntryConverter>

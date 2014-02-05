@@ -1,0 +1,8 @@
+.WorkflowView
+{
+    background: url("../images/heisenberg.png");
+}
+  .WorkflowView:hover, .WorkflowView.active
+    {
+        background: url("../images/heisenberg_selected.png");
+  }
